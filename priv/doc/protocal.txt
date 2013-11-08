@@ -6,13 +6,13 @@
                   /     \
                  /       \
                 /         \ 
-              udp         udp
+              tcp         tcp
               /             \
              /               \
             /                 \
            /                   \
           /                     \
-       peer1 <------udp------> peer2
+       peer1 <------tcp------> peer2
 
 
 2. Protocal
