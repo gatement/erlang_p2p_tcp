@@ -1,0 +1,6 @@
+[
+{p2p_client, [
+    {server_host, "localhost"},
+    {server_port, 40040}
+]}
+].
