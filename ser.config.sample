@@ -1,5 +1,5 @@
 [
 {p2p_server, [
-    {udp_port, 40040}
+    {tcp_port, 40041}
 ]}
 ].

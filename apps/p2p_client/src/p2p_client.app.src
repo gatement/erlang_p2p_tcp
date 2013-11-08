@@ -5,7 +5,7 @@
   {applications, [kernel, stdlib]},
   {env, [
     {server_host, "localhost"},
-    {server_port, 40040},
+    {server_port, 40041},
     {hole_punch_interval, 3000}, % in milliseconds
     {max_hole_punch_times, 10}
   ]},

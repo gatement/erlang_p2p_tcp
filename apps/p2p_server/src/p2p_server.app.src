@@ -4,7 +4,7 @@
   {registered, [p2p_server_sup]},
   {applications, [kernel, stdlib]},
   {env, [
-    {udp_port, 40040}
+    {tcp_port, 40041}
   ]},
   {mod, {p2p_server_app, []}}
  ]}.
