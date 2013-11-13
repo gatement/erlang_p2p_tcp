@@ -9,7 +9,7 @@
 -record(peer, {
                 peer_id,
                 peer_ip,
-                peer_udp_port,
+                peer_tcp_port,
                 peer_local_ip,
                 peer_local_port,
                 peer_public_ip,
@@ -21,10 +21,10 @@
 -record(state, {
                 server_host,
                 server_tcp_port,
-                server_udp_port,
+                server_tcp_a_port,
 
                 tcp_socket,
-                udp_socket,
+                tcp_a_socket,
 
                 client_id,
                 session_id,
