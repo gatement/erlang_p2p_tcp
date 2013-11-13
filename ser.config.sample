@@ -1,5 +1,7 @@
 [
 {p2p_server, [
-    {tcp_port, 40041}
+    {init_tcp_worker_count, 3},
+    {tcp_port, 40040},
+    {udp_port, 40041}
 ]}
 ].
